@@ -1,4 +1,7 @@
+![CC Graphics 2024_Simulations](https://github.com/csae-coders-corner/Simulation-based-power-calculations/assets/148211163/af5f1595-9b4c-4b98-aae1-2572c33b9cc6)
+
 # Simulation-based-power-calculations
+
 If you want to run power calculations using your baseline data, you can (typically) either use the asymptotic properties of your sample or bootstrap your βi using simulations on your baseline data. One advantage of using simulations is that you can add controls to your power analysis. Typically, policies/interventions only mildly affect the variance of the outcome of interest. So even if your policy has a (relatively) large impact, the standard errors (SEs) under the null hypothesis can be similar to the SE under the alternative. Adding controls can help get more precise measures of the impact of interest. 
 
 In this post, I will walk you through how to run these simulations, using a command attached to this post.
